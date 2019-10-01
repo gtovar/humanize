@@ -34,6 +34,8 @@ module Humanize
       Humanize::De
     when :en
       Humanize::En
+    when :es
+      Humanize::Es
     when :fr
       Humanize::Fr
     when :id
@@ -44,8 +46,6 @@ module Humanize
       Humanize::Th
     when :tr
       Humanize::Tr
-    when :es
-      Humanize::Es
     else
       raise "Unsupported humanize locale: #{locale}"
     end
