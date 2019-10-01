@@ -111,7 +111,7 @@ module Humanize
     attr_accessor :default_locale, :decimals_as
 
     def initialize
-      @default_locale = :en
+      @default_locale = :es
       @decimals_as = :digits
     end
   end
