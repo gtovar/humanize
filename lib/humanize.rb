@@ -29,31 +29,23 @@ module Humanize
     case locale.to_sym
     # NOTE: add locales here in ealphabetical order
     when :az
-      #Humanize::Az
-      Humanize::Es
+      Humanize::Az
     when :de
-      #Humanize::De
-      Humanize::Es
+      Humanize::De
     when :en
-      #Humanize::En
-      Humanize::Es
+      Humanize::En
     when :es
       Humanize::Es
     when :fr
-      #Humanize::Fr
-      Humanize::Es
+      Humanize::Fr
     when :id
-      #Humanize::Id
-      Humanize::Es
+      Humanize::Id
     when :ru
-      #Humanize::Ru
-      Humanize::Es
+      Humanize::Ru
     when :th
-      #Humanize::Th
-      Humanize::Es
+      Humanize::Th
     when :tr
-     # Humanize::Tr
-      Humanize::Es
+     Humanize::Tr
     else
       raise "Unsupported humanize locale: #{locale}"
     end
