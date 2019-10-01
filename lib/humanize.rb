@@ -44,6 +44,8 @@ module Humanize
       Humanize::Th
     when :tr
       Humanize::Tr
+    when :es
+      Humanize::ES
     else
       raise "Unsupported humanize locale: #{locale}"
     end
